@@ -1,0 +1,101 @@
+/* Header.module.css */
+
+/* Styles for the header section */
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #2f455c;
+	color: white;
+	padding: 10px 20px;
+}
+
+/* Styles for the logo */
+/* .logo img {
+	width: 50px !important;
+	height: auto;
+} */
+
+/* Styles for the navigation */
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+.navItems {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navItem {
+	margin-right: 20px;
+}
+
+.navItem a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Styles for the mega menu dropdown */
+.hasMegaMenu .megaMenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	z-index: 1;
+}
+
+.hasMegaMenu:hover .megaMenu {
+	display: flex;
+}
+
+.megaMenuColumn {
+	flex: 1;
+	padding: 20px;
+}
+
+.megaMenuColumn h3 {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+	color: white;
+}
+
+.megaMenuColumn ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.megaMenuColumn li {
+	margin-bottom: 5px;
+}
+
+.megaMenuColumn a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Styles for the CTA section */
+.cta {
+	padding: 10px;
+}
+
+.ctaButton {
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #2f455c;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 0.2s;
+}
+
+.ctaButton:hover {
+	background-color: #f5f5f5;
+}

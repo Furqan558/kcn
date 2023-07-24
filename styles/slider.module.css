@@ -1,0 +1,55 @@
+#gallery {
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Equivalent styles for .text-2xl, .font-bold, .text-center, .p-4 */
+#gallery h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 1rem;
+}
+
+/* Equivalent styles for .relative, .flex, .justify-center, .p-4 */
+#gallery .slider-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+}
+
+/* Equivalent styles for .opacity-[1], .ease-in, .duration-1000, .opacity-0 */
+#gallery .slide {
+	opacity: 0;
+	transition: opacity 1s ease-in;
+}
+
+#gallery .slide.active {
+	opacity: 1;
+}
+
+/* Equivalent styles for .top-[50%], .left-[30px], .right-[30px] */
+#gallery .arrow-icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: "green";
+	cursor: pointer;
+	user-select: none;
+}
+
+#gallery .arrow-icon.left {
+	left: -20px; /* Adjust the left position as needed */
+}
+
+#gallery .arrow-icon.right {
+	right: 20px; /* Adjust the right position as needed */
+}
+
+/* Equivalent styles for .cursor-pointer, .select-none */
+#gallery .arrow-icon {
+	cursor: pointer;
+	user-select: none;
+}

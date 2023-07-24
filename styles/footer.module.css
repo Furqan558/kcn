@@ -1,0 +1,80 @@
+/* Footer.module.css */
+
+/* Styles for the footer section */
+.footer {
+	display: flex;
+	flex-wrap: wrap; /* Add flex-wrap to allow columns to wrap when needed */
+	justify-content: space-between;
+	color: white;
+	background-color: #2f455c;
+	padding: 100px 20px;
+}
+
+.column {
+	flex: 1;
+	margin: 0 10px;
+}
+
+.column img {
+	width: 305px;
+	height: 150px;
+	/* max-width: 100%; */
+}
+
+.column ul {
+	list-style: none;
+	padding: 0;
+}
+
+.column ul li {
+	margin-bottom: 10px;
+}
+
+.column a {
+	text-decoration: none;
+	color: white;
+}
+
+.column a:hover {
+	text-decoration: underline;
+}
+
+/* Styles for the bottom section */
+.bottom-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	width: 100%; /* Ensure the bottom section spans the entire width */
+}
+
+.bottom-section a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.bottom-section p {
+	margin: 0;
+}
+
+.bottom-section .social-icons {
+	display: flex;
+	align-items: center;
+}
+
+.bottom-section .social-icon {
+	color: #fff;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+/* Additional styles for the container of the first three columns */
+.column-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}

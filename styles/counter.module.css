@@ -1,0 +1,16 @@
+.funFactCounter {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	/* background-color: #f5f5f5; */
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #333;
+	/* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.count {
+	display: inline-block;
+	min-width: 50px;
+	text-align: center;
+}

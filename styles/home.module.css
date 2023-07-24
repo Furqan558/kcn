@@ -1,0 +1,158 @@
+/* home.module.css */
+
+/* Styles for the hero section */
+.hero {
+	/* Set the background image URL */
+	background-image: url("https://webhustleagency.com/kcnn/wp-content/uploads/2023/07/Rectangle-4.png");
+
+	/* Define the background image size */
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	/* Optionally, you can adjust the positioning of the background image */
+	background-position: center center;
+
+	/* Set the height of the hero section */
+	/* height: 600px; Adjust the height as needed */
+
+	/* You can add more styles to customize the hero section */
+	/* For example, you can add padding, margin, text color, etc. */
+	padding: 20px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	align-items: center;
+
+	/* Display the hero section as a flex container with two columns */
+	display: flex;
+}
+
+/* Styles for the left column */
+.leftColumn {
+	/* Set the width of the left column */
+	flex: 60%;
+
+	/* Add padding and align the items to the left */
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.leftColumn p {
+	text-align: justify;
+}
+
+/* Styles for the right column */
+.rightColumn {
+	/* Set the width of the right column */
+	flex: 40%;
+
+	/* Add padding and align the items to the left */
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* Styles for the sub-columns in the right column */
+.subColumn {
+	/* Set the width of each sub-column to divide the right column into two equal parts */
+	flex: 1;
+	margin: 10px;
+}
+
+/* Styles for the images in the sub-columns */
+.subColumn img {
+	/* Set the image width to fill the sub-column */
+	width: 100%;
+	/* Optionally, you can add some margin or border to separate the images */
+	margin-bottom: 10px;
+}
+
+/* Styles for the ".who" section */
+.who {
+	background-color: #2f455c;
+	color: white;
+	padding: 40px;
+}
+
+/* Styles for the heading in the ".who" section */
+.who h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 32px; /* Updated font size for the heading */
+	font-weight: bold;
+	text-align: center; /* Center the heading within the column */
+	margin-bottom: 20px;
+}
+
+/* Styles for the button in the ".who" section */
+.who button {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: white;
+	color: black;
+	border: none;
+	cursor: pointer;
+	align-self: center;
+}
+
+/* Styles for the paragraph in the ".who" section */
+.who p {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center; /* Center the paragraph within the column */
+	margin-top: 20px;
+}
+
+.services h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 32px; /* Updated font size for the heading */
+	font-weight: bold;
+	text-align: left; /* Center the heading within the column */
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.services button {
+	font-family: "Roboto", Sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	align-items: "center";
+	fill: #ffffff;
+	color: #ffffff;
+	background-color: #2f455c;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+}
+.cardTilt {
+	width: 314px;
+	margin: -46px 0 0 0;
+	padding: 30px 0 0px 0;
+	background-color: transparent;
+	background-image: linear-gradient(175deg, #ffffff00 49%, #ffffff 50%);
+}
+
+.cta {
+	padding: 100px 200px;
+}
+.ctaContainer {
+	padding: 50px 40px;
+	box-shadow: 19px 19px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.ctaButton {
+	padding: 21px 55px 21px 55px;
+	font-family: "Lato", Sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #21d0b3;
+	border-style: none;
+	border-color: #ff5657;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 19px 19px 40px 0px rgba(0, 0, 0, 0.1);
+}

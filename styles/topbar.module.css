@@ -1,0 +1,35 @@
+/* Topbar.module.css */
+
+/* Styles for the topbar section */
+.topbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #2f455c;
+	color: white;
+	padding: 10px;
+}
+
+/* Styles for the left content */
+.leftContent {
+	display: flex;
+	align-items: center;
+}
+
+.leftContent .icon {
+	margin-right: 10px;
+}
+
+.leftContent .contactInfo span {
+	font-size: 14px;
+}
+
+/* Styles for the right content */
+.rightContent {
+	display: flex;
+}
+
+.rightContent .socialIcon {
+	font-size: 20px;
+	margin-left: 10px;
+}
