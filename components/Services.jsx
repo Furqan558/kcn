@@ -197,11 +197,9 @@ const Services = () => {
 					</Col>
 				</Row>
 				<Row>
-					<Col md={4}></Col>
-					<Col style={{ textAlign: "center" }} md={4}>
+					<Col style={{ textAlign: "center" }} md={12}>
 						<button>View More</button>
 					</Col>
-					<Col md={4}></Col>
 				</Row>
 			</Container>
 		</section>

@@ -6,19 +6,26 @@ const About = () => {
 		<section className={styles.who}>
 			<Container>
 				<Row>
-					<Col md={5}>
-						<h2>Who We Are</h2>
-						<Button variant="primary">Learn More</Button>
+					<Col md={3} style={{ paddingTop: "50px" }}>
+						<div style={styles.whoLeft}>
+							<h2>Who We Are</h2>
+							<Button variant="primary">Learn More</Button>
+						</div>
 					</Col>
-					<Col md={7}>
+					<Col md={9}>
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+							Similique cumque tempora rerum eius quos illo maiores, unde
+							laudantium optio vitae animi, voluptatem, ratione officiis fugit
+							dicta nulla cupiditate magni consequatur reiciendis! Aspernatur
+							facere consequuntur voluptatum eaque odit corporis tenetur, libero
+							aliquam fuga quod, magni quo eos quasi modi sequi, impedit
+							recusandae neque. Magni ipsum tempora nam veniam. Sequi voluptatum
+							natus deserunt facilis eligendi itaque non excepturi officiis
+							veniam? Ullam saepe alias necessitatibus praesentium nulla
+							quibusdam iusto quis numquam repudiandae qui, soluta quisquam
+							facilis optio fuga vero in distinctio enim repellat? Quo dolores,
+							quod aut sunt magnam similique repellendus sapiente ex.
 						</p>
 					</Col>
 				</Row>

@@ -1,7 +1,18 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Map = () => {
-	return <section className="map">Add your map component here</section>;
+	return (
+		<section>
+			<img
+				src="mapss.png"
+				alt="office location on map"
+				style={{ maxWidth: "-webkit-fill-available" }}
+
+				// style={{ objectFit: "contain" }}
+			/>
+		</section>
+	);
 };
 
 export default Map;

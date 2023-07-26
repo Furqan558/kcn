@@ -1,6 +1,11 @@
 /* Header.module.css */
 
 /* Styles for the header section */
+.box {
+	display: flex;
+	justify-content: space-between;
+}
+
 .header {
 	display: flex;
 	align-items: center;

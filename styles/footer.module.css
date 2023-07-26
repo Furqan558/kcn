@@ -7,7 +7,7 @@
 	justify-content: space-between;
 	color: white;
 	background-color: #2f455c;
-	padding: 100px 20px;
+	padding: 100px 0 10px 0;
 }
 
 .column {
@@ -16,8 +16,8 @@
 }
 
 .column img {
-	width: 305px;
-	height: 150px;
+	width: 150px;
+	/* height: 150px; */
 	/* max-width: 100%; */
 }
 
@@ -39,13 +39,29 @@
 	text-decoration: underline;
 }
 
+/* Styles for the locations */
+.location {
+	display: flex;
+	align-items: center;
+}
+
+.locationIcon {
+	align-self: flex-start;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.locationInfo span {
+	font-size: 14px;
+}
+
 /* Styles for the bottom section */
 .bottom-section {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #333;
-	color: #fff;
+	/* background-color: #333; */
+	/* color: #fff; */
 	padding: 10px 20px;
 	width: 100%; /* Ensure the bottom section spans the entire width */
 }
@@ -53,6 +69,7 @@
 .bottom-section a {
 	color: #fff;
 	text-decoration: none;
+	margin-left: 10px;
 	margin-right: 10px;
 }
 
@@ -60,15 +77,15 @@
 	margin: 0;
 }
 
-.bottom-section .social-icons {
+/* Styles for the right content */
+.socialContent {
 	display: flex;
-	align-items: center;
 }
 
-.bottom-section .social-icon {
-	color: #fff;
+.socialContent .socialIcon {
+	font-size: 20px;
+	margin-left: 10px;
 	margin-right: 10px;
-	cursor: pointer;
 }
 
 /* Additional styles for the container of the first three columns */

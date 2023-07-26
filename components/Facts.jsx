@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import FunFactCounter from "./Counter";
+import styles from "../styles/home.module.css";
 
 const Facts = () => {
 	return (
-		<section className="fun-facts">
+		<section className={styles.funFacts}>
 			<Container>
 				<Row>
 					<Col md={4}>

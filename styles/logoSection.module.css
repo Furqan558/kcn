@@ -1,0 +1,36 @@
+/* LogoSection.module.css */
+
+.ourPartners {
+	background-color: #2f455c;
+}
+
+.ourPartners,
+.ourClients {
+	padding: 30px 0 100px 0;
+}
+
+.ourPartners h2 {
+	color: white;
+}
+
+.ourPartners h2,
+.ourClients h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 32px; /* Updated font size for the heading */
+	font-weight: bold;
+	text-align: left; /* left the heading within the column */
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.logoSection {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logoSection img {
+	max-width: 100%;
+	height: auto;
+	margin-right: 20px; /* Adjust the spacing between logos */
+}

@@ -21,7 +21,7 @@ const Homepage = () => {
 			<Services />
 			<Whyus />
 			<Cta />
-			{/* <Facts /> */}
+			<Facts />
 			<Portfolio />
 			{/* <Slider /> */}
 			{/* <Carousel /> */}

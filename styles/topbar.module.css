@@ -1,6 +1,11 @@
 /* Topbar.module.css */
 
 /* Styles for the topbar section */
+.box {
+	display: flex;
+	justify-content: space-between;
+}
+
 .topbar {
 	display: flex;
 	justify-content: space-between;
@@ -17,7 +22,8 @@
 }
 
 .leftContent .icon {
-	margin-right: 10px;
+	margin-left: 15px;
+	margin-right: 5px;
 }
 
 .leftContent .contactInfo span {

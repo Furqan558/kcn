@@ -7,35 +7,38 @@ import {
 	FaInstagram,
 } from "react-icons/fa";
 import styles from "../styles/topbar.module.css";
+import { Container } from "react-bootstrap";
 
 const Topbar = () => {
 	return (
 		<div className={styles.topbar}>
-			<div className={styles.leftContent}>
-				<div className={styles.icon}>
-					<FaPhone />
+			<Container className={styles.box}>
+				<div className={styles.leftContent}>
+					<div className={styles.icon}>
+						<FaPhone />
+					</div>
+					<div className={styles.contactInfo}>
+						<span>+1 123 456 7890</span>
+					</div>
+					<div className={styles.icon}>
+						<FaEnvelope />
+					</div>
+					<div className={styles.contactInfo}>
+						<span>info@example.com</span>
+					</div>
 				</div>
-				<div className={styles.contactInfo}>
-					<span>+1 123 456 7890</span>
+				<div className={styles.rightContent}>
+					<div className={styles.socialIcon}>
+						<FaFacebook />
+					</div>
+					<div className={styles.socialIcon}>
+						<FaTwitter />
+					</div>
+					<div className={styles.socialIcon}>
+						<FaInstagram />
+					</div>
 				</div>
-				<div className={styles.icon}>
-					<FaEnvelope />
-				</div>
-				<div className={styles.contactInfo}>
-					<span>info@example.com</span>
-				</div>
-			</div>
-			<div className={styles.rightContent}>
-				<div className={styles.socialIcon}>
-					<FaFacebook />
-				</div>
-				<div className={styles.socialIcon}>
-					<FaTwitter />
-				</div>
-				<div className={styles.socialIcon}>
-					<FaInstagram />
-				</div>
-			</div>
+			</Container>
 		</div>
 	);
 };

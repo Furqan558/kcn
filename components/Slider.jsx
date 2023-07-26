@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import styles from "../styles/slider.module.css";
 
 const Slider = () => {
@@ -44,7 +44,6 @@ const Slider = () => {
 
 	return (
 		<div id="gallery">
-			<h1 className={styles["text-2xl"]}>Gallery</h1>
 			<div className={styles["slider-container"]}>
 				{SliderData.map((slide, index) => (
 					<div
@@ -57,22 +56,22 @@ const Slider = () => {
 					>
 						{index === current && (
 							<>
-								<FaArrowCircleLeft
+								<FaArrowLeft
 									onClick={prevSlide}
 									className={`${styles["arrow-icon"]} ${styles.left}`}
-									size={50}
+									size={25}
 								/>
 								<Image
 									src={slide.image}
 									alt="/"
-									width="1440"
+									width="1200"
 									height="600"
 									objectFit="cover"
 								/>
-								<FaArrowCircleRight
+								<FaArrowRight
 									onClick={nextSlide}
 									className={`${styles["arrow-icon"]} ${styles.right}`}
-									size={50}
+									size={25}
 								/>
 							</>
 						)}
