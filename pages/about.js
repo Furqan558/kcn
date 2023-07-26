@@ -21,7 +21,7 @@ function services() {
 					<Container>
 						<Row>
 							<Col className={styles.leftColumn} md={8}>
-								<h1>Our Services</h1>
+								<h1>About Us</h1>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
 									do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import styles from "../styles/header.module.css";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 // import Navbar from "./Navbar";
 
 const Header = () => {
@@ -32,50 +32,63 @@ const Header = () => {
 	};
 
 	return (
-		<header className={styles.header}>
-			<Container className={styles.box}>
+		<header className={styles.myHeader}>
+			<Container>
 				{/* Logo */}
-				<div className={styles.logo}>
-					<img src="kcn.png" alt="Company Logo" width="75px" />
-				</div>
-				{/* Navigation */}
-				<nav className={styles.navigation}>
-					<ul className={styles.navItems}>
-						<li className={styles.navItem}>
-							<Link href="/">HOME</Link>
-						</li>
+				<Row>
+					<Col md={3}>
+						<div className={styles.logo}>
+							<img src="kcn.png" alt="Company Logo" width="75px" />
+						</div>
+					</Col>
+					<Col>
+						{/* Navigation */}
+						<nav className={styles.navigation}>
+							<ul className={styles.navItems}>
+								<li className={styles.navItem}>
+									<Link href="/">HOME</Link>
+								</li>
 
-						<li className={styles.navItem}>
-							<Link href="/industries">INDUSTRIES</Link>
-						</li>
-						<li className={styles.navItem}>
-							<Link href="/technology">TECHNOLOGY</Link>
-						</li>
-						<li className={styles.navItem}>
-							<Link href="/products">PRODUCTS</Link>
-						</li>
+								<li className={styles.navItem}>
+									<Link href="/industries">INDUSTRIES</Link>
+								</li>
+								<li className={styles.navItem}>
+									<Link href="/technology">TECHNOLOGY</Link>
+								</li>
+								<li className={styles.navItem}>
+									<Link href="/products">PRODUCTS</Link>
+								</li>
 
-						<li className={styles.navItem}>
-							<Link href="/services">SERVICES</Link>
-						</li>
-						<li className={styles.navItem}>
-							<Link href="/solutions">SOLUTIONS</Link>
-						</li>
+								<li className={styles.navItem}>
+									<Link href="/services">SERVICES</Link>
+								</li>
+								<li className={styles.navItem}>
+									<Link href="/solutions">SOLUTIONS</Link>
+								</li>
 
-						<li className={styles.navItem}>
-							<Link href="/about">ABOUT</Link>
-						</li>
-						<li className={styles.navItem}>
-							<Link href="/contact">CONTACT</Link>
-						</li>
-					</ul>
-				</nav>
-				{/* CTA */}
-				<div className={styles.cta}>
-					<a href="/" className={styles.ctaButton}>
-						Get Started
-					</a>
-				</div>
+								<li className={styles.navItem}>
+									<Link href="/about">ABOUT</Link>
+								</li>
+								<li className={styles.navItem}>
+									<Link href="/contact">CONTACT</Link>
+								</li>
+								<li className={styles.cta}>
+									<Link href="/" className={styles.ctaButton}>
+										Get Started
+									</Link>
+								</li>
+							</ul>
+						</nav>
+						{/* CTA */}
+						{/* <div className={styles.cta}>
+							<a href="/" className={styles.ctaButton}>
+								Get Started
+							</a>
+						</div> */}
+					</Col>
+					{/* <Col>
+					</Col> */}
+				</Row>
 			</Container>
 		</header>
 	);

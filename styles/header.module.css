@@ -1,15 +1,15 @@
 /* Header.module.css */
 
 /* Styles for the header section */
-.box {
+/* .box {
 	display: flex;
 	justify-content: space-between;
-}
+} */
 
-.header {
-	display: flex;
+.myHeader {
+	/* display: flex; */
 	align-items: center;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	background-color: #2f455c;
 	color: white;
 	padding: 10px 20px;
@@ -24,7 +24,7 @@
 /* Styles for the navigation */
 .navigation {
 	display: flex;
-	align-items: center;
+	justify-content: flex-end;
 }
 
 .navItems {
@@ -86,9 +86,9 @@
 }
 
 /* Styles for the CTA section */
-.cta {
+/* .cta {
 	padding: 10px;
-}
+} */
 
 .ctaButton {
 	padding: 10px 20px;
